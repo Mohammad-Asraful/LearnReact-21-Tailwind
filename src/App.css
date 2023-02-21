@@ -20,12 +20,6 @@
 }
  */
 
-/* .teamSection {
-  background: #0f0c29;
-  background: -webkit-linear-gradient(to top, #24243e, #302b63, #0f0c29);
-  background: linear-gradient(to top, #24243e, #302b63, #0f0c29);
-} */
-
 .teamSection {
   background: #000428;
   background: -webkit-linear-gradient(to top, #004e92, #000428);
@@ -38,4 +32,16 @@
   background: -webkit-linear-gradient(to top, #004e92, #000428);
   background: linear-gradient(to top, #000428, #004e92);
   padding: 60px 30px;
+}
+
+.landingPage {
+  /* background: #000428;
+  background: -webkit-linear-gradient(to top, #004e92, #000428);
+  background: linear-gradient(to top, #004e92, #000428);
+  padding: 60px 30px; */
+
+  background-image: url("./Image/Landpagebg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }

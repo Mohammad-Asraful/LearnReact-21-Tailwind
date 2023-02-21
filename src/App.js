@@ -1,5 +1,6 @@
 import React from 'react'
 import './App.css'
+import LandingPage from './Component/LandingPage'
 import OurTeam from './Component/OurTeam'
 import OurTeamData from './Component/OurTeamData'
 import RegistrationForm from './Component/RegistrationForm'
@@ -60,6 +61,13 @@ const App = () => {
       </section>
 
       {/* Form secttion end */}
+
+
+      {/* Landing page start */}
+      <section>
+        <LandingPage />
+      </section>
+      {/* Landing page end */}
     </>
   )
 }

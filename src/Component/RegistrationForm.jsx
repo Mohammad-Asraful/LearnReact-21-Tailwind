@@ -7,8 +7,8 @@ const RegistrationForm = () => {
          {/* form design start */}
          <div className='w-fit flex gap-5 lg:w-full md:w-full justify-center'>
             {/* Sign in form start */}
-            <div className='w-1/2 shadow-white shadow-sm p-5 grid justify-center'>
-               <h1 className='uppercase text-white mb-9'>Sign in</h1>
+            <div className='w-1/2 shadow-white shadow-sm p-5 grid justify-center rounded-3xl'>
+               <h1 className='uppercase text-white'>Sign in</h1>
                <form>
                   <label className='block text-white opacity-50 uppercase mb-1' htmlFor="name">User Name</label>
                   <input className='py-1 px-2 block text-white w-[50vh] lg:w-[400px] rounded-full bg-transparent border-2 mb-2' type="text" name="text" placeholder='Enter your name' />
@@ -25,7 +25,7 @@ const RegistrationForm = () => {
 
 
             {/* Registration form start */}
-            <div className='w-1/2 lg:w-1/2 shadow-white shadow-sm p-5 grid justify-center'>
+            <div className='w-1/2 lg:w-1/2 shadow-white shadow-sm p-5 grid justify-center rounded-3xl'>
                <h1 className='uppercase text-white mb-9'>Sign up</h1>
                <form>
                   <label className='block text-white opacity-50 uppercase mb-1' htmlFor="name">User Name</label>

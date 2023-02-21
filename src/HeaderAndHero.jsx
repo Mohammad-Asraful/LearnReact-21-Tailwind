@@ -10,7 +10,7 @@ const HeaderAndHero = () => {
       main-hero-div
       px-5
       h-[90vh]
-      bg-[url("./Image/image.jpg")] 
+      bg-[url("./Image/image.jpg")]
       bg-no-repeat 
       bg-cover 
       bg-center'
